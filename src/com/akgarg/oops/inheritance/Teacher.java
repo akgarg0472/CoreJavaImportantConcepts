@@ -4,9 +4,12 @@ import java.util.Arrays;
 
 public class Teacher extends Person {
 
-    private final String role;
-    private final int classNumber;
-    private final String[] subjects;
+    private String role;
+    private int classNumber;
+    private String[] subjects;
+
+    public Teacher() {
+    }
 
     public Teacher(String name, int age, String role, int classNumber, String[] subjects) {
         super(name, age);

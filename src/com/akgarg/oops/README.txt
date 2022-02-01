@@ -75,6 +75,7 @@
     - Every class is by default a child of 'Object' class in Java.
     - Parent class reference can hold the object of child class (Downcasting) but child class reference can't hold the object of parent class (Upcasting).
     - We can declare class 'final' to prevent it from being inherited.
+    - We can downcast or upcast an object using appropriate checks (instanceof keyword) before casting.
     
 → Polymorphism:
     - Polymorphism means 'Multiple forms'. Polymorphism is the mechanism which allows an object to take different forms and behave differently in different environments.
